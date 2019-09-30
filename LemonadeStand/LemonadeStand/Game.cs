@@ -41,13 +41,13 @@ namespace LemonadeStand
 
         // member variables (HAS A)
         public Player playerOne;
-
+        public Inventory inventory;
 
         // constructor
         public Game()
         {
             playerOne = new Player();
-        
+            inventory = new Inventory();
         }
 
 
@@ -55,11 +55,6 @@ namespace LemonadeStand
         public void RunGame()
         {
             
-        }
-
-        public void CreatePlayer()
-        {
-
         }
 
         public void DisplayInstructions()
@@ -70,29 +65,46 @@ namespace LemonadeStand
             Console.WriteLine("Keep in mind that the weather will affect the outcome of sales for each day.");
         }
 
+        public void CreatePlayer()
+        {
+            Console.WriteLine("What is your name?");
+            playerOne.name = Console.ReadLine();
+        }
+
         public void DisplayResources()
         {
-
+            Console.WriteLine("Here's how much of each resource you have!");
         }
 
         public void DisplayWeather()
         {
 
+            Console.WriteLine("This is the weather forecast for today.");
         }
 
         public void DisplayShop()
         {
-
+            Console.WriteLine("");
         }
 
         public void DisplayRecipe()
         {
+            playerOne.recipe.CreateRecipe();
+            Console.WriteLine("");
+        }
 
+        public void DisplaySelling()
+        {
+            Console.ReadLine();
+            
+                Console.WriteLine("You ran out of items for your recipe.");
         }
 
         public void DisplayDayResults()
         {
+            
 
+            Console.WriteLine("");
         }
     }
 }

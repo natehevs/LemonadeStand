@@ -8,5 +8,14 @@ namespace LemonadeStand
 {
     abstract class Item
     {
+        // member variables (HAS A)
+
+
+
+        // constructor
+
+
+
+        // member methods (CAN DO)
     }
 }
