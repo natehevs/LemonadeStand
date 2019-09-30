@@ -1,0 +1,6 @@
+C:\Users\pmhev\Desktop\LemonadeStand\LemonadeStand\LemonadeStand\bin\Debug\LemonadeStand.exe.config
+C:\Users\pmhev\Desktop\LemonadeStand\LemonadeStand\LemonadeStand\bin\Debug\LemonadeStand.exe
+C:\Users\pmhev\Desktop\LemonadeStand\LemonadeStand\LemonadeStand\bin\Debug\LemonadeStand.pdb
+C:\Users\pmhev\Desktop\LemonadeStand\LemonadeStand\LemonadeStand\obj\Debug\LemonadeStand.csprojAssemblyReference.cache
+C:\Users\pmhev\Desktop\LemonadeStand\LemonadeStand\LemonadeStand\obj\Debug\LemonadeStand.exe
+C:\Users\pmhev\Desktop\LemonadeStand\LemonadeStand\LemonadeStand\obj\Debug\LemonadeStand.pdb
