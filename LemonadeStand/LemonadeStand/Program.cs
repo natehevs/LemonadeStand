@@ -10,15 +10,9 @@ namespace LemonadeStand
     {
         static void Main(string[] args)
         {
-            // member variables (HAS A)
-
-
-
-            // constructor
-
-
-
-            // member methods (CAN DO)
+            Game game = new Game();
+            game.RunGame();
+            Console.ReadLine();
         }
     }
 }

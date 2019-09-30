@@ -9,12 +9,13 @@ namespace LemonadeStand
     class Player
     {
         // member variables (HAS A)
-
-
+        public int score;
+        public string name;
+        
 
         // constructor
 
-
+        
 
         // member methods (CAN DO)
     }

@@ -40,17 +40,59 @@ namespace LemonadeStand
         */
 
         // member variables (HAS A)
-
+        public Player playerOne;
 
 
         // constructor
-
+        public Game()
+        {
+            playerOne = new Player();
+        
+        }
 
 
         // member methods (CAN DO)
-        internal void RunGame()
+        public void RunGame()
         {
-            throw new NotImplementedException();
+            
+        }
+
+        public void CreatePlayer()
+        {
+
+        }
+
+        public void DisplayInstructions()
+        {
+            Console.WriteLine("This is a lemonade stand game! you choose a player name and play a 7 day lemonade stand simulation.");
+            Console.WriteLine("The objective is to make the biggest profit that you can by the end of the week.");
+            Console.WriteLine("The weather along with the resources you have for each day will be displayed before each day. You can buy more resources to help sell more lemonade before each day.");
+            Console.WriteLine("Keep in mind that the weather will affect the outcome of sales for each day.");
+        }
+
+        public void DisplayResources()
+        {
+
+        }
+
+        public void DisplayWeather()
+        {
+
+        }
+
+        public void DisplayShop()
+        {
+
+        }
+
+        public void DisplayRecipe()
+        {
+
+        }
+
+        public void DisplayDayResults()
+        {
+
         }
     }
 }
