@@ -21,9 +21,16 @@ namespace LemonadeStand
 
         // constructor
 
-
+        public Player()
+        {
+            recipe = new Recipe();
+            inventory = new Inventory();
+            wallet = new Wallet();
+            pitcher = new Pitcher();
+        }
 
         // member methods (CAN DO)
-        public object recipe { get; internal set; }
+
+
     }
 }

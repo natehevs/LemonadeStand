@@ -14,7 +14,10 @@ namespace LemonadeStand
 
         // constructor
 
+        public Pitcher()
+        {
 
+        }
 
         // member methods (CAN DO)
     }

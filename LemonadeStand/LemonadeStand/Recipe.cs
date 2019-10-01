@@ -13,11 +13,14 @@ namespace LemonadeStand
         public int amountOfLemons;
         public int amountOfSugar;
         public int amountOfIce;
-        public int double pricePerCup;
+        public double pricePerCup;
 
         // constructor
 
+        public Recipe()
+        {
 
+        }
 
         // member methods (CAN DO)
 

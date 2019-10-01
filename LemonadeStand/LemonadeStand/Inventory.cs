@@ -19,10 +19,13 @@ namespace LemonadeStand
 
         public Inventory()
         {
-            
-
+            lemons = new List<Lemon>();
+            sugar = new List<SugarCube>();
+            ice = new List<IceCube>();
+            cups = new List<Cup>();           
         }
 
         // member methods (CAN DO)
+
     }
 }
