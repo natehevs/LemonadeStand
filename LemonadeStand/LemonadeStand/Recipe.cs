@@ -19,7 +19,10 @@ namespace LemonadeStand
 
         public Recipe()
         {
-
+            amountOfIce = 0;
+            amountOfLemons = 0;
+            amountOfSugar = 0;
+            pricePerCup = .25;
         }
 
         // member methods (CAN DO)
