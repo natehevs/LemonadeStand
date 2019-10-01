@@ -42,6 +42,8 @@ namespace LemonadeStand
         // member variables (HAS A)
         public Player playerOne;
         public Inventory inventory;
+        List<Day> days;
+        int currentDay;
 
         // constructor
         public Game()

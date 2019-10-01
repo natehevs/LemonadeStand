@@ -10,7 +10,7 @@ namespace LemonadeStand
     {
         // member variables (HAS A)
 
-
+        Player player;
 
         // constructor
 
