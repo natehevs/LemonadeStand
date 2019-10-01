@@ -8,15 +8,17 @@ namespace LemonadeStand
 {
     class Player
     {
+        internal string name;
+
         // member variables (HAS A)
-        public int score;
-        public string name;
-        
+
+
 
         // constructor
 
-        
+
 
         // member methods (CAN DO)
+        public object recipe { get; internal set; }
     }
 }

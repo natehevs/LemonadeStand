@@ -10,12 +10,20 @@ namespace LemonadeStand
     {
         // member variables (HAS A)
 
-
+        public int amountOfLemons;
+        public int amountOfSugar;
+        public int amountOfIce;
+        public int double pricePerCup;
 
         // constructor
 
 
 
         // member methods (CAN DO)
+
+        public void CreateRecipe()
+        {
+
+        }
     }
 }

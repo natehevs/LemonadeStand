@@ -10,7 +10,7 @@ namespace LemonadeStand
     {
         /*
          * 1. display information
-               a. display instructions/ explanations
+          2. display instructions/ explanations
         3. get name
         4. show current lemons, sugar, and ice which would be 0 at beginning
             a. display weather for today
@@ -54,7 +54,14 @@ namespace LemonadeStand
         // member methods (CAN DO)
         public void RunGame()
         {
+            //setup
+            DisplayInstructions();
+            CreatePlayer();
             
+
+            //gameplay loop
+
+            //cleanup = show total profit or loss at the end of week
         }
 
         public void DisplayInstructions()
@@ -89,7 +96,7 @@ namespace LemonadeStand
 
         public void DisplayRecipe()
         {
-            playerOne.recipe.CreateRecipe();
+            //playerOne.recipe.CreateRecipe();
             Console.WriteLine("");
         }
 

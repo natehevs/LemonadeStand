@@ -10,7 +10,7 @@ namespace LemonadeStand
     {
         // member variables (HAS A)
 
-
+        public int cupsLeftInPitcher;
 
         // constructor
 
