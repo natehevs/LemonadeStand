@@ -14,7 +14,10 @@ namespace LemonadeStand
 
         // constructor
 
+        public IceCube()
+        {
 
+        }
 
         // member methods (CAN DO)
     }

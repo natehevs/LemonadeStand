@@ -14,7 +14,10 @@ namespace LemonadeStand
 
         // constructor
 
+        public Lemon()
+        {
 
+        }
 
         // member methods (CAN DO)
     }

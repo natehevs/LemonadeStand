@@ -50,6 +50,7 @@ namespace LemonadeStand
         {
             playerOne = new Player();
             inventory = new Inventory();
+            
         }
 
 
@@ -88,6 +89,7 @@ namespace LemonadeStand
         public void DisplayResources()
         {
             Console.WriteLine("Here's how much of each resource you have!");
+            inventory. = Console.ReadLine();
         }
 
         public void DisplayWeather()
@@ -98,7 +100,12 @@ namespace LemonadeStand
 
         public void DisplayShop()
         {
-            Console.WriteLine("");
+            Console.WriteLine("This is the Shop. You can purchase items to help with your lemonade stand here.");
+            Console.WriteLine("Cups are sold for the following prices. 25 Cups= $2.50, 50 Cups= $5.00, 100 Cups= $10.00");
+            Console.WriteLine("Lemons are sold for the following prices. 25 Lemons= $2.50, 50 Lemons= $5.00, 100 Lemons= $10.00");
+            Console.WriteLine("Sugar is sold for the following prices. 25 Cubes= $1.00, 50 Cubes= $2.00, 100 Cubes= $4.00");
+            Console.WriteLine("Ice is sold for the follwing prices. 100 Cubes= $5.00, 200 Cubes= $10.00, 300 Cubes= $20.00");
+            
         }
 
         public void DisplayRecipe()

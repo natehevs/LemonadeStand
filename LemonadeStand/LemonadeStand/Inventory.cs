@@ -9,11 +9,12 @@ namespace LemonadeStand
     class Inventory
     {
         // member variables (HAS A)
-
+ 
         public List<Lemon> lemons;
         public List<SugarCube> sugar;
         public List<IceCube> ice;
         public List<Cup> cups;
+        internal string qty;
 
         // constructor
 
@@ -27,10 +28,57 @@ namespace LemonadeStand
 
         // member methods (CAN DO)
 
-        public void DisplayResources()
+        public void DisplayResources(string itemName, int qty)
         {
-
+            switch (itemName)
+                {
+                    case "Cups":
+                        AddCups(qty);
+                        break;
+                    case "Lemons":
+                        AddLemons(qty);
+                        break;
+                    case "Sugar":
+                        AddSugar(qty);
+                        break;
+                    case "Ice":
+                        AddIce(qty);
+                        break;
+                    default:
+                        break;
+                }
         }
 
+        private void AddIce(int qty)
+        {
+            for (int i = 0; i < qty; i++)
+            {
+                ice.Add(new IceCube());
+            }
+        }
+
+        private void AddSugar(int qty)
+        {
+            for (int i = 0; i < qty; i++)
+            {
+                sugar.Add(new SugarCube());
+            }
+        }
+
+        private void AddLemons(int qty)
+        {
+            for (int i = 0; i < qty; i++)
+            {
+                lemons.Add(new Lemon());
+            }
+        }
+
+        private void AddCups(int qty)
+        {
+            for (int i = 0; i < qty; i++)
+            {
+                cups.Add(new Cup());
+            }
+        }
     }
 }

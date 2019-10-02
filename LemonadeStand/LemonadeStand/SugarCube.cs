@@ -14,7 +14,10 @@ namespace LemonadeStand
 
         // constructor
 
+        public SugarCube()
+        {
 
+        }
 
         // member methods (CAN DO)
     }

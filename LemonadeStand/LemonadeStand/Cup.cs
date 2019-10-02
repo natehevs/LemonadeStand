@@ -14,7 +14,10 @@ namespace LemonadeStand
 
         // constructor
 
+        public Cup()
+        {
 
+        }
 
         // member methods (CAN DO)
     }
