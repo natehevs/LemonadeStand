@@ -10,11 +10,11 @@ namespace LemonadeStand
     {
         // member variables (HAS A)
  
+        
         public List<Lemon> lemons;
         public List<SugarCube> sugar;
         public List<IceCube> ice;
         public List<Cup> cups;
-        internal string qty;
 
         // constructor
 

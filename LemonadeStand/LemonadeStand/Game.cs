@@ -44,6 +44,7 @@ namespace LemonadeStand
         public Inventory inventory;
         List<Day> days;
         int currentDay;
+        
 
         // constructor
         public Game()
@@ -82,14 +83,16 @@ namespace LemonadeStand
 
         public void CreatePlayer()
         {
-            Console.WriteLine("What is your name?");
-            playerOne.name = Console.ReadLine();
+            Console.Write("What is your name?");
+            string playerOne = Console.ReadLine();
+            Console.WriteLine("Hello " + playerOne);
+            Console.ReadLine();
         }
 
         public void DisplayResources()
         {
             Console.WriteLine("Here's how much of each resource you have!");
-            inventory. = Console.ReadLine();
+            Console.WriteLine(inventory);
         }
 
         public void DisplayWeather()
