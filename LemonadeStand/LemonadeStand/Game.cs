@@ -59,7 +59,12 @@ namespace LemonadeStand
             //setup
             DisplayInstructions();
             CreatePlayer();
-            
+            DisplayResources();
+            DisplayWeather();
+            DisplayShop();
+            DisplayRecipe();
+            DisplaySelling();
+            DisplayDayResults();
 
             //gameplay loop
 

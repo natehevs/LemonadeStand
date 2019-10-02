@@ -27,5 +27,10 @@ namespace LemonadeStand
 
         // member methods (CAN DO)
 
+        public void DisplayResources()
+        {
+
+        }
+
     }
 }

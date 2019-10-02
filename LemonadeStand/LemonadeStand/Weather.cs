@@ -17,13 +17,26 @@ namespace LemonadeStand
 
         // constructor
 
-
+        public Weather()
+        {
+            weatherConditions = new List<string>() { "sunny", "raining", "cloudy" };
+            CreateWeather();
+            CreateTemperature();
+        }
 
         // member methods (CAN DO)
 
-        public void CreateWeather()
+        private void CreateWeather()
         {
+            Random random = new Random();
+            int index = random.Next(weatherConditions.Count);
+            condition = weatherConditions[index];
+        }
 
+        private void CreateTemperature()
+        {
+            Random random = new Random();
+            temperature = random.Next(50, 90);
         }
     }
 }

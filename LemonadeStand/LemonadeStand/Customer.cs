@@ -10,6 +10,7 @@ namespace LemonadeStand
     {
         // member variables (HAS A)
 
+        public string customerDemand;
         private List<string> names;
         public string name;
 
@@ -18,5 +19,18 @@ namespace LemonadeStand
         
 
         // member methods (CAN DO)
+         
+                /*if(condition == "rainy")
+                {
+                    customerDemand = low;
+                }
+                else if(condition = "cloudy")
+                {
+                    customerDemand = medium;
+                }
+                else if(condition = "sunny")
+                {
+                    customerDemand = high;
+                }*/
     }
 }
