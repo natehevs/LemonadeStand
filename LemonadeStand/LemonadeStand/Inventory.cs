@@ -26,59 +26,61 @@ namespace LemonadeStand
             cups = new List<Cup>();           
         }
 
+
+
         // member methods (CAN DO)
 
-        public void DisplayResources(string itemName, int qty)
-        {
-            switch (itemName)
-                {
-                    case "Cups":
-                        AddCups(qty);
-                        break;
-                    case "Lemons":
-                        AddLemons(qty);
-                        break;
-                    case "Sugar":
-                        AddSugar(qty);
-                        break;
-                    case "Ice":
-                        AddIce(qty);
-                        break;
-                    default:
-                        break;
-                }
-        }
+        //public void DisplayResources(string itemName, int qty)
+        //{
+        //    switch (itemName)
+        //        {
+        //            case "Cups":
+        //                AddCups(qty);
+        //                break;
+        //            case "Lemons":
+        //                AddLemons(qty);
+        //                break;
+        //            case "Sugar":
+        //                AddSugar(qty);
+        //                break;
+        //            case "Ice":
+        //                AddIce(qty);
+        //                break;
+        //            default:
+        //                break;
+        //        }
+        //}
 
-        private void AddIce(int qty)
-        {
-            for (int i = 0; i < qty; i++)
-            {
-                ice.Add(new IceCube());
-            }
-        }
+        //private void AddIce(int qty)
+        //{
+        //    for (int i = 0; i < qty; i++)
+        //    {
+        //        ice.Add(new IceCube());
+        //    }
+        //}
 
-        private void AddSugar(int qty)
-        {
-            for (int i = 0; i < qty; i++)
-            {
-                sugar.Add(new SugarCube());
-            }
-        }
+        //private void AddSugar(int qty)
+        //{
+        //    for (int i = 0; i < qty; i++)
+        //    {
+        //        sugar.Add(new SugarCube());
+        //    }
+        //}
 
-        private void AddLemons(int qty)
-        {
-            for (int i = 0; i < qty; i++)
-            {
-                lemons.Add(new Lemon());
-            }
-        }
+        //private void AddLemons(int qty)
+        //{
+        //    for (int i = 0; i < qty; i++)
+        //    {
+        //        lemons.Add(new Lemon());
+        //    }
+        //}
 
-        private void AddCups(int qty)
-        {
-            for (int i = 0; i < qty; i++)
-            {
-                cups.Add(new Cup());
-            }
-        }
+        //private void AddCups(int qty)
+        //{
+        //    for (int i = 0; i < qty; i++)
+        //    {
+        //        cups.Add(new Cup());
+        //    }
+        //}
     }
 }

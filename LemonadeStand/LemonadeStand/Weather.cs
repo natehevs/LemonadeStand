@@ -13,7 +13,8 @@ namespace LemonadeStand
         public string condition;
         public int temperature;
         private List<string> weatherConditions;
-        public string predictedForecast;
+        public string predictedCondition;
+        
 
         // constructor
 
@@ -66,6 +67,13 @@ namespace LemonadeStand
         {
             Random random = new Random();
             temperature = random.Next(50, 90);
+        }
+
+        private void CreatePredictedCondition()
+        {
+            Random random = new Random();
+            int index = random.Next(weatherConditions.Count);
+            predictedCondition = weatherConditions[index];
         }
     }
 }

@@ -4,6 +4,18 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
+/*
+ * having a hard time understanding code in general. i see it as "do this, just because it works" not understanding
+ * what circumstances to use it in or why we use it.
+ * 
+ * I grasp certain concepts, but having a hard time understanding what to use for my steps 
+ * 
+ * i research certain problems i run into and find a solution, but understanding the solution is where i have trouble.
+ * 
+ * relating to this project im having issues trying to understand how to link the inventory or other classes into the game
+ * so the information is usable in the console.
+ */
+
 namespace LemonadeStand
 {
     class Game
@@ -42,8 +54,10 @@ namespace LemonadeStand
         // member variables (HAS A)
         public Player playerOne;
         public Inventory inventory;
-        List<Day> days;
-        int currentDay;
+        public Weather condition;
+        public Weather temperature;
+        //List<Day> days;
+        //int currentDay;
         
 
         // constructor
@@ -51,7 +65,8 @@ namespace LemonadeStand
         {
             playerOne = new Player();
             inventory = new Inventory();
-            
+            condition = new Weather();
+            temperature = new Weather();
         }
 
 
@@ -63,10 +78,10 @@ namespace LemonadeStand
             CreatePlayer();
             DisplayResources();
             DisplayWeather();
-            DisplayShop();
+            /*DisplayStore();
             DisplayRecipe();
             DisplaySelling();
-            DisplayDayResults();
+            DisplayDayResults();*/
 
             //gameplay loop
 
@@ -85,23 +100,26 @@ namespace LemonadeStand
         {
             Console.Write("What is your name?");
             string playerOne = Console.ReadLine();
-            Console.WriteLine("Hello " + playerOne);
+            Console.WriteLine("Hello " + playerOne + " Hit 'Enter' to advance.");
             Console.ReadLine();
         }
 
         public void DisplayResources()
         {
-            Console.WriteLine("Here's how much of each resource you have!");
-            Console.WriteLine(inventory);
+            Console.WriteLine("Here's what you have in your inventory!");
+            string inventory = Console.WriteLine();
         }
 
         public void DisplayWeather()
         {
 
-            Console.WriteLine("This is the weather forecast for today.");
+            Console.WriteLine("This is the weather forecast for today. Hit 'Enter' to advance.");
+            string condition = Console.WriteLine(condition);
+            string temperature = Console.WriteLine(temperature);
+            Console.ReadLine();
         }
 
-        public void DisplayShop()
+        public void DisplayStore()
         {
             Console.WriteLine("This is the Shop. You can purchase items to help with your lemonade stand here.");
             Console.WriteLine("Cups are sold for the following prices. 25 Cups= $2.50, 50 Cups= $5.00, 100 Cups= $10.00");
