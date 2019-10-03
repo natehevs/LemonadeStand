@@ -15,8 +15,8 @@ namespace LemonadeStand
         public int CupPrice;
         
         public int money;
-
         Player player;
+        private string lemons;
 
         // constructor
 
@@ -26,13 +26,46 @@ namespace LemonadeStand
             SugarPrice = DisplayPrice();
             LemonPrice = DisplayPrice();
             CupPrice = DisplayPrice();
+            
         }
 
         // member methods (CAN DO)
 
+        public void StoreMenu()
+        {
+            // write a menu method that I can choose what i want to buy
+            // based on what i choose to buy go to that method (i.e SellLemons or SellIce)
+            Console.WriteLine("What would you like to purchase? Type either 'lemons', 'ice', 'cups', 'sugar', or 'done' if you are finished shopping.");
+            string item = Console.ReadLine();
+            switch (item)
+            {
+                case "lemons":
+                    SellLemons();
+                    break;
+                case "ice":
+                    SellIce();
+                    break;
+                case "cups":
+                    SellCups();
+                    break;
+                case "sugar":
+                    SellSugar();
+                    break;
+                case "done":
+                    break;
+            }
+        }
+
         public void SellLemons()
         {
+            //well how much do you want?
+            //check if they have enough money
+            //if you do have enough money
+                    // that add item to their inventory
+                    // take money from them
+            //if they do not have enough money then let them know and send them back to the menu
 
+            // no matter if they buy or do not buy send them back to the menu
         }
 
         public void SellIce()
