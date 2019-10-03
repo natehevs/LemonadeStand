@@ -28,33 +28,7 @@ namespace LemonadeStand
             CreateTemperature();
         }
 
-        // member methods (CAN DO)
-
-        /*public void CreateWeather()
-        {
-            weatherArray[0] = "sunny";
-            weatherArray[1] = "raining";
-            weatherArray[2] = "cloudy";
-            foreach (string item in weatherArray)
-            {
-                Console.WriteLine(item);
-            }
-
-            if (item = [0])
-            {
-                I need it to display sunny and then make sunny have higher chance for people to buy lemonade.
-            }
-
-            else if (item = [1])
-            {
-                I need it to display raining and then make it the lowest probability people would buy lemonade.
-            }
-
-            else
-            {
-                display cloudy and then make it average or medium probability people would want to buy lemonade.
-            }
-       }*/
+        
 
         private void CreateWeather()
         {
